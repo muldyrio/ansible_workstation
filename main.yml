@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - include_tasks: tasks/sudo.yml
+    - include_tasks: tasks/update.yml

@@ -1,0 +1,2 @@
+[home]
+workstation ansible_host=localhost ansible_user="{{ username }}" ansible_connection=local
