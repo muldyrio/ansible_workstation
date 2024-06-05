@@ -9,4 +9,5 @@
 - name: Add repos
   ansible.builtin.apt_repository:
     filename: brave-browser
-    repo: "{{ repos }}"
+    repo: "{{ item }}"
+  loop: "{{ repos }}"
