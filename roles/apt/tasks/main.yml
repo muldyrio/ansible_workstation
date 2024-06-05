@@ -1,2 +1,3 @@
 ---
+- include_vars: main.yml
 - include_tasks: get_pubkeys.yml
