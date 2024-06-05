@@ -1,2 +1,2 @@
 ---
-- include_tasks: get_pubkeys
+- include_tasks: get_pubkeys.yml
