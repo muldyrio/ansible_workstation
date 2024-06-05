@@ -4,7 +4,7 @@ urls:
     dest: /usr/share/keyrings/brave-browser-archive-keyring.gpg
   
   - url: https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg
-    dest: /usr/share/keyrings/spotify-keyring.gpg
+    dest: /usr/share/keyrings/spotify-keyring.asc
 
 repos:
   - name: brave-browser
