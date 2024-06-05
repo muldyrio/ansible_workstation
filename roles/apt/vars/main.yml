@@ -1,3 +1,4 @@
 ---
-include_vars: repos.yml
-include_vars: urls.yml
+include_vars:
+  - repos.yml
+  - urls.yml
