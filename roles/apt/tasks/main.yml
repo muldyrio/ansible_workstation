@@ -1,3 +1,0 @@
----
-- include_vars: ../vars/repos.yml
-- include_tasks: get_pubkeys.yml
