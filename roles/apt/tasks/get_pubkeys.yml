@@ -9,4 +9,4 @@
 - name: Add repos
   ansible.builtin.apt_repository:
     filename: brave-browser
-    repo: "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"
+    repo: "{{ repos }}"
