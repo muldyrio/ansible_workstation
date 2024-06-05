@@ -4,11 +4,11 @@ urls:
     dest: /usr/share/keyrings/brave-browser-archive-keyring.gpg
   
   - url: https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg
-    dest: /etc/apt/trusted.gpg.d/spotify.gpg
+    dest: /usr/share/keyrings/spotify-keyring.gpg
 
 repos:
   - name: brave-browser
     repo: "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"
   
   - name: spotify
-    repo: "deb http://repository.spotify.com stable non-free"
+    repo: "deb [signed-by=/usr/share/keyrings/spotify-keyring.gpg] http://repository.spotify.com stable non-free"
