@@ -9,6 +9,6 @@
 
 - name: Add repos
   ansible.builtin.apt_repository:
-    filename: "{{ item.file_name }}"
+    filename: "{{ item.name }}"
     repo: "{{ item.repo }}"
   loop: "{{ repos }}"
